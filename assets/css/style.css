@@ -1,0 +1,49 @@
+#wpadminbar {
+    background-color: var(--custom-background-color, #1d2327);
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.widefat {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.widefat th,
+.widefat td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.widefat th {
+    background-color: #f5f5f5;
+}
+
+#custom-posts-form,
+#plugin-settings-form {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+#custom-posts-form select,
+#custom-posts-form button,
+#plugin-settings-form input,
+#plugin-settings-form button {
+    padding: 8px 12px;
+    margin-right: 10px;
+}
+
+#custom-posts-response,
+#settings-response {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 3px;
+}
